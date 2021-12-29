@@ -1,1 +1,1 @@
-http://katyakapeika.github.io/rsschool-cv/cv
+http://katyakapeika.github.io/rsschool-cv/
