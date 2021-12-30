@@ -1,0 +1,137 @@
+body.page-cv {
+    background-color: #9ea397; /* Цвет фона веб-страницы */
+    width: 1000px;
+    min-height: 100vh;
+    margin: auto;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif; /* семейство шрифта */
+    }
+.header-block {
+    background: yellowgreen;
+    height: 350px;
+    display: flex;
+}
+.cv-block {
+    display: flex;
+    margin: 10px 0px;
+} 
+.left-block {
+    background-color: yellowgreen;
+    width: 100%;
+    /*margin-top: 20px;*/
+    margin: 0px 10px 0px 0px;
+}
+.contact-header {
+    padding: 60px;
+}
+.contact-list {
+    padding-left: 70px;
+    line-height: 2;
+    /*border-bottom: 1px solid #999; /* Параметры линии снизу */
+    font-size: 15pt; /* Размер шрифта в пунктах */
+}
+.right-block {
+    background-color: #ebfbd4;
+    /*margin-top: -20px;*/
+    padding: 0px 10px;
+
+}
+.title {
+    margin: 70px 70px 125px 100px;
+    /* margin: 0; */
+    /* padding: 0; */
+    /* font-size: 50px; */
+    line-height: 50px;
+    /* font-weight: 600; */
+}
+.name-title {
+    font-size: 40px;
+    /*padding-top: 30px;*/
+      
+}
+.foto {
+    border-radius: 150px;
+    overflow: hidden;
+    height: 300px;
+    width: 300px;
+    margin: 25px 25px;
+}
+.vacation-title {
+    border-bottom: 3px solid #6a7459;; /* Параметры линии снизу */
+    font-size: 25px;  
+}
+/*.about-me {
+
+    margin-bottom: 10px;
+    }*/
+.header {
+    background-color: #9ea397;
+    padding-left: 36px; 
+
+}
+/*.skills {
+    margin-bottom: 10px;
+    
+}
+/*.skills-header {
+    background-color: #6a7459; 
+}*/
+.skills-list {
+    margin-left: 60px;
+    padding: 0;
+    padding-left: 20px;
+}
+/*.training {
+    margin-bottom: 10px;
+    
+}
+/*.training-header {
+    background-color: #6a7459; 
+}*/
+.training-list {
+    margin-left: 60px;
+    padding-left: 20px;
+}
+/*.education {
+    margin-bottom: 10px;
+   
+}
+/*.education-header {
+    background-color: #6a7459;
+}*/
+/*.languages {
+    margin-bottom: 10px;
+   
+}
+/*.languages-header {
+    background-color: #6a7459;
+}*/
+.languages-list {
+    margin-left: 60px;
+    padding-left: 20px;
+}
+/*.code {
+    margin-bottom: 10px;
+   
+}*/
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    padding: 20px 60px 20px 60px;
+    color: rgb(5, 5, 5);
+    background-color: yellowgreen;
+}
+.footer-github {
+   
+    /*padding-left: 50px;*/
+    color: rgb(5 5 5);
+}
+.footer-year {
+    justify-self: center;
+}
+.footer-rsschool {
+    justify-self: end;
+    /*height: 50px;*/
+    color: rgb(5 5 5);
+}
