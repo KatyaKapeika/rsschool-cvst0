@@ -1,7 +1,9 @@
 body.page-cv {
     background-color: #9ea397; /* Цвет фона веб-страницы */
     width: 1000px;
+    min-height: 100vh;
     margin: auto;
+    padding: 0;
     font-family: Arial, Helvetica, sans-serif; /* семейство шрифта */
     }
 .header-block {
@@ -58,17 +60,17 @@ body.page-cv {
     border-bottom: 3px solid #6a7459;; /* Параметры линии снизу */
     font-size: 25px;  
 }
-.about-me {
+/*.about-me {
 
-    margin-bottom: 50px;
-    }
+    margin-bottom: 10px;
+    }*/
 .header {
     background-color: #9ea397;
     padding-left: 36px; 
 
 }
-.skills {
-    margin-bottom: 50px;
+/*.skills {
+    margin-bottom: 10px;
     
 }
 /*.skills-header {
@@ -79,8 +81,8 @@ body.page-cv {
     padding: 0;
     padding-left: 20px;
 }
-.training {
-    margin-bottom: 50px;
+/*.training {
+    margin-bottom: 10px;
     
 }
 /*.training-header {
@@ -90,15 +92,15 @@ body.page-cv {
     margin-left: 60px;
     padding-left: 20px;
 }
-.education {
-    margin-bottom: 50px;
+/*.education {
+    margin-bottom: 10px;
    
 }
 /*.education-header {
     background-color: #6a7459;
 }*/
-.languages {
-    margin-bottom: 50px;
+/*.languages {
+    margin-bottom: 10px;
    
 }
 /*.languages-header {
@@ -108,10 +110,10 @@ body.page-cv {
     margin-left: 60px;
     padding-left: 20px;
 }
-.code {
-    margin-bottom: 50px;
+/*.code {
+    margin-bottom: 10px;
    
-}
+}*/
 .footer {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
